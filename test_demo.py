@@ -4,10 +4,10 @@ import torch
 from torch.utils.data import DataLoader
 from torchvision.utils import save_image, make_grid
 
-from utils import *
-from options import TestOptions
+from utils/utils import *
+from utils/options import TestOptions
 from models/12_models import Restormer
-from datasets import SingleImgDataset
+from utils/datasets import SingleImgDataset
 
 print('---------------------------------------- step 1/4 : parameters preparing... ----------------------------------------')
 opt = TestOptions().parse()
