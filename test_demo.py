@@ -6,7 +6,7 @@ from torchvision.utils import save_image, make_grid
 
 from utils import *
 from options import TestOptions
-from models import Restormer
+from models/12_models import Restormer
 from datasets import SingleImgDataset
 
 print('---------------------------------------- step 1/4 : parameters preparing... ----------------------------------------')
