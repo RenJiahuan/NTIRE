@@ -1,4 +1,4 @@
 # NTIRE
 
 Your can denoise the images by 
-python 
+python test_demo.py
