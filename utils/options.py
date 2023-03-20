@@ -14,7 +14,7 @@ class TestOptions():
         self.parser.add_argument("--data_source", type=str, default='../dataset/test', required=False, help="dataset root")
         
         # ---------------------------------------- step 3/4 : model defining... ------------------------------------------------
-        self.parser.add_argument("--model_path", type=str, default='../pretrained/models', required=False, help="pretrained model path")
+        self.parser.add_argument("--model_path", type=str, default='../model_zoo/12_models.pth', required=False, help="pretrained model path")
         
         # ---------------------------------------- step 4/4 : testing... ------------------------------------------------
         self.parser.add_argument("--save_image", action='store_true', help="if specified, save image when testing")
